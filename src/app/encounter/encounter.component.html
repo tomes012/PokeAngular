@@ -1,0 +1,4 @@
+<div *ngIf="searching" id="narrator">searching...</div>
+<div *ngIf="pokemon" id="narrator">{{ pokemon.name }} approaches!</div>
+<img *ngIf="pokemon" [src]="pokemon.sprites.front_default" alt="" />
+<button (click)="catchPokemon()">catch</button>

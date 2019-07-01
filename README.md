@@ -1,3 +1,6 @@
+# Messing around introducing myself to Angular, turned into a simple pokemon game using the pokeapi.co api
+# WIP
+
 # Ng7
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.

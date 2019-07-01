@@ -1,0 +1,11 @@
+<h1 *ngIf="pokemon && pokemon.length > 0" class="center">My Pokemon</h1>
+<h1 *ngIf="!pokemon || pokemon.length === 0" class="center">
+  You don't have any pokemon
+</h1>
+<ul *ngIf="pokemon">
+  <li (click)="goToRealPokedex(pokemon.name)" *ngFor="let pokemon of pokemon">
+    <img *ngIf="pokemon" [src]="pokemon.sprite" alt="" />
+    <div *ngIf="pokemon">{{ pokemon.name }}</div>
+  </li>
+</ul>
+<a class="center" href="encounter">Go Catch More Pokemon!</a>

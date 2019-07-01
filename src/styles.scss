@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+app-root {
+    display: grid;
+    height: 100%;
+}
+
+section {
+    display: grid;
+    place-self: center;
+}
+
+a:link {
+    text-decoration: inherit;
+    color: white;
+    cursor: pointer;
+    background-color:#0095FF;
+    display: block;
+    width: 200px;
+    padding: 2vw;
+    border-radius: 6px;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: inherit;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+a:active{
+    opacity: 0.2;
+}
+
+button,a:visited,a:link{
+    color: white;
+    cursor: pointer;
+    background-color:#0095FF;
+    display: block;
+    width: 200px;
+    padding: 2vw;
+    border-radius: 6px;
+    text-align: center;
+    border:none;
+    font-size: 18px;
+    margin: auto;
+}
