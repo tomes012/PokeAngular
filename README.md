@@ -1,5 +1,7 @@
-# Messing around introducing myself to Angular, turned into a simple pokemon game using the pokeapi.co api
-# WIP
+Messing around introducing myself to Angular, turned into a simple pokemon game using the pokeapi.co api
+WIP
+
+![did this really work](https://i.ibb.co/XkwsxCg/example.gif)
 
 # Ng7
 
